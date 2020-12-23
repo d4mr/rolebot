@@ -10,7 +10,7 @@ cd rolebot
 npm install
 ```
 
-Get your Discord client secret (create an app and get one from [here](https://discord.com/developers/applications) or learn more [here](https://discord.com/developers/docs/intro)) and set it as the CLIENT_SECRET environment variable. Alternatively, create a `.env` file like this:
+Get your Discord client secret (create an app and get one from [here](https://discord.com/developers/applications) or learn more [here](https://discord.com/developers/docs/intro)) and set it as the `CLIENT_SECRET` environment variable. Alternatively, create a `.env` file like this:
 ```TXT:.env
 CLIENT_SECRET=your_secret_goes_here
 ```
