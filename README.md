@@ -24,7 +24,7 @@ npm start
 Configuration options are found in [config.js](./config.js). This file should be pretty intuitive, I recommend adding the bot to a dummy server to test it out and understand the various configuration options. In case someone actually requires help in understanding these options, please open an issue, I would love to help you out.
 
 ## Adding the bot to your server
-Create an ivite with this format `https://discord.com/oauth2/authorize?client_id={your_client_id_here}&scope=bot&permissions=268438608` but replace the `client_id` query string with your client ID. You can find yours [here](https://discord.com/developers/applications).
+Create an invite link with this format ```https://discord.com/oauth2/authorize?client_id={your_client_id_here}&scope=bot&permissions=268438608``` but replace the `client_id` query string with your client ID. You can find yours [here](https://discord.com/developers/applications).
 
 ## Contributing
 This bot would greatly benefit from better documentation of the configuration options.
