@@ -15,6 +15,10 @@ Get your Discord client secret (create an app and get one from [here](https://di
 CLIENT_SECRET=your_secret_goes_here
 ```
 **Be carfeul!** *Do not commit your secret, or leak it anywhere publicly. This will grant anybody access to impersonate your bot.*
+Run your bot with
+```
+npm start
+```
 
 ## Configuring your bot
 Configuration options are found in [config.js](./config.js). This file should be pretty intuitive, I recommend adding the bot to a dummy server to test it out and understand the various configuration options. In case someone actually requires help in understanding these options, please open an issue, I would love to help you out.
