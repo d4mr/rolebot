@@ -21,7 +21,37 @@ npm start
 ```
 
 ## Configuring your bot
-Configuration options are found in [config.js](./config.js). This file should be pretty intuitive, I recommend adding the bot to a dummy server to test it out and understand the various configuration options. In case someone actually requires help in understanding these options, please open an issue, I would love to help you out.
+
+### roles-message
+
+Title: The text for the title of the embed
+Color: The color of the sidebar of the embed
+Author: The author of the embed
+Description: The description of the embed
+
+### bot-admin-channel
+
+Category: The category of the channel
+Name: The name of the channel
+
+### bot-admin-role
+
+The role for the admin who can use the bot
+
+### bot-message-channel
+
+Category: The category of the channel
+Name: The name of the channel
+
+### Roles
+
+Roles follow the following format
+
+Role:
+  Channels:
+    Category: The category of the channel
+    Name: The name of the channel
+  Color: The color of the sidebar of the embed
 
 ## Adding the bot to your server
 Create an invite link with this format 
