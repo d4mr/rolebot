@@ -28,10 +28,10 @@ Configuration options for the message posted by the bot. Reacting to this messag
 
 | Property | Description |
 |--------  | --------------- |
-| Title    | The text for the title of the embed |
-| Color    | The color of the sidebar of the embed |
-| Author   | The author of the embed |
-| Description | The description of the embed |
+| `title`   | The text for the title of the embed |
+| `color`    | The color of the sidebar of the embed |
+| `author`   | The author of the embed |
+| `description` | The description of the embed |
 
 ### bot-admin-channel
 
@@ -39,8 +39,8 @@ Configuration options for the channel of the message posted by the bot for admin
 
 | Property | Description |
 |--------  | --------------- |
-| Category | The category of the channel |
-| Name     | The name of the channel |
+| `category` | The category of the channel |
+| `name`     | The name of the channel |
 
 ### bot-admin-role
 
@@ -52,8 +52,8 @@ Configuration options for the the channel of message posted by the bot.
 
 | Property | Description |
 |--------  | --------------- |
-| Category | The category of the channel |
-| Name     | The name of the channel |
+| `category` | The category of the channel |
+| `name`     | The name of the channel |
 
 ### Roles
 
@@ -61,10 +61,10 @@ Configuration for the roles
 
 | Property | Description |
 |--------  | --------------- |
-| Channels | Properties |
-| Category | The category of the channel |
-| Name     | The name of the channel |
-| Color    | The color of the sidebar of the embed |
+| `channels` | Properties |
+| `category` | The category of the channel |
+| `name`     | The name of the channel |
+| `color`    | The color of the sidebar of the embed |
 
 ## Adding the bot to your server
 Create an invite link with this format 
