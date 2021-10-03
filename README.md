@@ -23,6 +23,9 @@ npm start
 ## Configuring your bot
 
 ### roles-message
+
+Configuration options for the message posted by the bot. Reacting to this message grants users with roles.
+
 | Property | Description |
 |--------  | --------------- |
 | Title    | The text for the title of the embed |
@@ -32,6 +35,8 @@ npm start
 
 ### bot-admin-channel
 
+Configuration options for the channel of the message posted by the bot for admins.
+
 | Property | Description |
 |--------  | --------------- |
 | Category | The category of the channel |
@@ -39,9 +44,11 @@ npm start
 
 ### bot-admin-role
 
-The role for the admin who can use the bot
+The role for the admin who can use the bot.
 
 ### bot-message-channel
+
+Configuration options for the the channel of message posted by the bot.
 
 | Property | Description |
 |--------  | --------------- |
@@ -50,7 +57,7 @@ The role for the admin who can use the bot
 
 ### Roles
 
-Roles follow the following format
+Configuration for the roles
 
 | Property | Description |
 |--------  | --------------- |
