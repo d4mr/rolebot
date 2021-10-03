@@ -25,13 +25,17 @@ npm start
 ### roles-message
 
 Title: The text for the title of the embed
+
 Color: The color of the sidebar of the embed
+
 Author: The author of the embed
+
 Description: The description of the embed
 
 ### bot-admin-channel
 
 Category: The category of the channel
+
 Name: The name of the channel
 
 ### bot-admin-role
@@ -41,6 +45,7 @@ The role for the admin who can use the bot
 ### bot-message-channel
 
 Category: The category of the channel
+
 Name: The name of the channel
 
 ### Roles
@@ -48,9 +53,13 @@ Name: The name of the channel
 Roles follow the following format
 
 Role:
+
   Channels:
-    Category: The category of the channel
-    Name: The name of the channel
+  
+   Category: The category of the channel
+    
+   Name: The name of the channel
+    
   Color: The color of the sidebar of the embed
 
 ## Adding the bot to your server
